@@ -412,11 +412,17 @@ img {
     width: 100%;
     padding: 1rem 0;
     border-top: 1px solid #444;
+    align-items: baseline;
+    gap: 5px;
 }
 
 #LowerFooterP {
     font-size: 12px;
 
+}
+
+.fa-solid {
+    font-size: 10px;
 }
 
 @media only screen and (max-width: 600px) {

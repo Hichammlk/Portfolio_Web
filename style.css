@@ -3,11 +3,12 @@ header {
     flex-direction: row;
     background-color: white;
     position: fixed;
-    width: 100%;
-    
-    
-    
-    
+    width: calc(100% - 48px);
+    PADDING: 0 24px;
+
+
+
+
     ul {
         display: flex;
         gap: 50px;
@@ -15,13 +16,13 @@ header {
         justify-content: space-evenly;
         justify-content: right;
         list-style: none;
-        
+
     }
 }
 
 #SousTitre {
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 
@@ -35,7 +36,7 @@ header {
 
 header li {
     border-radius: 40%;
-  
+
 }
 
 .NomNav {
@@ -43,7 +44,7 @@ header li {
     font-weight: 700;
     letter-spacing: 1px;
     font-family: "Source Code Pro", monospace;
-    
+
 }
 
 #NomNav2 {
@@ -51,7 +52,7 @@ header li {
     list-style: none;
     text-decoration: none;
 }
- 
+
 .Banner {
     display: flex;
     justify-content: space-between;
@@ -59,6 +60,7 @@ header li {
     height: 100vh;
     background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(https://www.rammaheshwari.com/assets/svg/common-bg.svg);
 }
+
 .Icones {
     font-size: 40px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -78,18 +80,18 @@ header li {
 
 
 }
-.empty {
 
-}
+.empty {}
 
 .ButtonProject {
     background-color: rgb(132, 20, 132);
     margin-top: 51px;
     text-decoration: none;
-    padding: 25px;
+    padding: 12px 24px;
     color: white;
-    border-radius: 10%;
+    border-radius: 4px;
     font-family: "Source Code Pro", monospace;
+
 
 }
 
@@ -97,8 +99,8 @@ header li {
     display: flex;
     justify-content: center;
     height: 20%;
-   
-    
+
+
 }
 
 .Nav {
@@ -117,9 +119,10 @@ header li {
 .AboutMe {
     display: flex;
     justify-content: space-between;
-    
+
 
 }
+
 .AboutMe Div {
     width: 50%;
     text-align: center;
@@ -129,25 +132,30 @@ header li {
     display: flex;
 
 }
+
 .ContenuVie p {
     width: 50%;
 }
 
 #skills li {
+    display: flex;
+    justify-content: center;
     list-style: none;
     padding: 20px;
     width: 17%;
     background: rgba(153, 153, 153, 0.2);
     color: #666;
-    border-radius: 5px;
+    border-radius: 4px;
     margin: 18px;
+    align-items: center;
+
 }
 
 #skills ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+
 }
 
 #skills {
@@ -160,25 +168,28 @@ h1 {
 
 .Content {
     font-family: "Source Code Pro", monospace;
-    font-size: 23px;
+    font-size: 18px;
     margin-left: 15px;
 }
 
 .Content2 {
     font-family: "Source Code Pro", monospace;
     font-size: 17px;
-    
+
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
+    font-family: math;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
-} 
+    font-family: 'Source Code Pro';
+}
+
 
 p {
     text-align: center;
@@ -187,9 +198,11 @@ p {
 }
 
 img {
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+    border: solid 1px #00000029;
     width: 300px;
     height: 200px;
-    
+
 }
 
 .HeaderIMG {
@@ -231,13 +244,16 @@ img {
     flex-direction: column;
     list-style: none;
     margin: 20px;
-    
+
 }
 
 .FormEmail {
     display: flex;
     height: 25vh;
     justify-content: center;
+    background: #160e0ecc;
+    border: 1px solid #ebebeb;
+
 }
 
 .Envoyer {
@@ -249,7 +265,8 @@ img {
     margin-left: 660px;
     font-family: "Source Code Pro", monospace;
 }
-.fa-brands{
+
+.fa-brands {
     color: white;
 }
 
@@ -266,8 +283,8 @@ img {
 #FooterP {
     display: flex;
     font-size: 15px;
-    
-    
+
+
 }
 
 .FooterL {
@@ -280,7 +297,7 @@ img {
     font-family: "Source Code Pro", monospace;
     font-size: 15px;
     text-align: center;
-    
+
 }
 
 .FooterR {
@@ -293,19 +310,115 @@ img {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: "Source Code Pro", monospace;
-    
+
 }
 
 .FooterSocial {
     font-size: 25px;
-    
+
+}
+
+.TextForm {
+    width: 50%;
+    padding: 1rem;
+    background: #160e0ecc;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+
+}
+
+#IconesHover1:hover {
+    background-color: #5170cc;
+    border-radius: 5px;
 }
 
 
 
+#IconesHover2:hover {
+    border-radius: 5px;
+    background-color: #5170cc;
+}
+
+#IconesHover3:hover {
+    border-radius: 5px;
+    background-color: #5170cc;
+}
+
+#IconesHover4:hover {
+    border-radius: 5px;
+    background-color: #5170cc;
+    ;
+}
+
+#FooterHover1:hover {
+    border-radius: 5px;
+    background-color: #5170cc;
+    ;
+}
+
+#FooterHover2:hover {
+    border-radius: 5px;
+    background-color: #5170cc;
+    ;
+}
+
+#FooterHover3:hover {
+    border-radius: 5px;
+    background-color: #5170cc;
+    ;
+}
+
+#FooterHover4:hover {
+    border-radius: 5px;
+    background-color: #5170cc;
+}
+
+.ButtonProject:hover {
+    background-color: gray;
+}
+
+.HeaderIMG:hover {
+    background-color: rgb(132, 20, 132);
+}
+
+#HoverIMG1:hover {
+    background-color: gray;
+}
+
+#HoverIMG2:hover {
+    background-color: gray;
+}
+
+#HoverIMG3:hover {
+    background-color: gray;
+}
+
+.Envoyer:hover {
+    background-color: gray;
+}
+
+.Nav:hover {
+    color: rgb(132, 20, 132);
+}
+
+.NomNav:hover {
+    color:  rgb(132, 20, 132);
+}
 
 
+#LowerFooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+    border-top: 1px solid #444;
+}
 
+#LowerFooterP {
+    font-size: 12px;
 
+}
 
-
+@media only screen and (max-width: 600px) {
+    body {}
+}

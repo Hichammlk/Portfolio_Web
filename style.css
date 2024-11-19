@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -5,6 +9,7 @@ header {
     position: fixed;
     width: calc(100% - 48px);
     PADDING: 0 24px;
+    box-shadow: 0 0 12px #0000001a;
 
 
 
@@ -63,7 +68,7 @@ header li {
 
 .Icones {
     font-size: 40px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 15px 29px 0px;
     padding: 0.5rem;
     color: black;
 }
@@ -188,6 +193,7 @@ h2 {
     font-size: 25px;
     text-transform: uppercase;
     font-family: 'Source Code Pro';
+    padding: 88px;
 }
 
 
